@@ -15,7 +15,6 @@ function App() {
     <>
       <h1>Counter</h1>
       <h2>Counter value: {count} </h2>
-
       <div>
         <button
           style={{ marginRight: "10px" }}
