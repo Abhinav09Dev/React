@@ -33,6 +33,7 @@ function InputBox({
           onChange={(e) =>
             onAmountChange && onAmountChange(Number(e.target.value))
           }
+          
         />
       </div>
       <div className="w-1/2 flex flex-wrap justify-end text-right">

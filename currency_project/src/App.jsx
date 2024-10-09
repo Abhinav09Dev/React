@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { InputBox } from "./components";
 import useCurrencyInfo from "./hooks/useCurrencyInfo";
-import "./App.css";
 
 function App() {
   const [amount, setAmount] = useState(1);
@@ -19,6 +18,7 @@ function App() {
     setAmount(convertedAmount);
   };
 
+<<<<<<< HEAD
   useEffect(()=> {
     if(currencyInfo[to]){
       setConvertedAmount(amount * currencyInfo[to])
@@ -29,6 +29,16 @@ function App() {
   const convert = () => {
     setConvertedAmount(amount * currencyInfo[to]);
   };
+=======
+  useEffect(() => {
+    if(currencyInfo[to]){
+      setConvertedAmount(amount * currencyInfo[to]);
+    }
+  }, [amount, from, to, currencyInfo])
+  // const convert = () => {
+  //   setConvertedAmount(amount * currencyInfo[to]);
+  // };
+>>>>>>> origin/main
 
   return (
     <div
@@ -74,12 +84,12 @@ function App() {
                 amountDisable
               />
             </div>
-            <button
+            {/* <button
               type="submit"
               className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg"
             >
               Convert {from.toUpperCase()} to {to.toUpperCase()}
-            </button>
+            </button> */}
           </form>
         </div>
       </div>
