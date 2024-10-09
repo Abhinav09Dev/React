@@ -1,0 +1,23 @@
+Dear Hiring Manager,
+
+
+
+I hope this message finds you well. I am writing to express my interest in the Frontend Developer position at Spinny. As a recent graduate with experience in developing scalable, responsive web applications, I believe I can make a valuable contribution to your team.
+
+
+
+During my recent work on government projects, including the Pradhan Mantri Matsya Kisan Samridhi Sah-Yojana (PMMKSSY)  and National Fisheries Digital Platform  (NFDP) portals, I was responsible for building user-centric interfaces using Angular, integrating dynamic APIs, and ensuring a smooth user experience across devices.  Although these projects were built in Angular, I have also gained significant experience working with React, particularly in managing state and handling API responses, allowing me to adapt quickly to different frameworks.  
+
+
+
+I am particularly excited about the opportunity to work at your organization due to the technology Spinny uses for providing cars through seamless communication and helping people achieve their dreams. With my skills aligned, we can build user-friendly interfaces and I can help ensure that clients can easily interact with your UI. I am confident that my technical background, problem-solving abilities, and inclination toward front-end development make me a strong candidate for this role.
+
+
+
+Thank you for considering my application. I would love to put my skills to good use for your organization and support Spinny's projects. Thank you for considering my application, and I look forward to the possibility of contributing to your team.
+
+
+
+Best regards,
+
+Abhinav Chauhan
