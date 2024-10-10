@@ -18,7 +18,7 @@ function App() {
     setAmount(convertedAmount);
   };
 
-<<<<<<< HEAD
+
   useEffect(()=> {
     if(currencyInfo[to]){
       setConvertedAmount(amount * currencyInfo[to])
@@ -29,16 +29,6 @@ function App() {
   const convert = () => {
     setConvertedAmount(amount * currencyInfo[to]);
   };
-=======
-  useEffect(() => {
-    if(currencyInfo[to]){
-      setConvertedAmount(amount * currencyInfo[to]);
-    }
-  }, [amount, from, to, currencyInfo])
-  // const convert = () => {
-  //   setConvertedAmount(amount * currencyInfo[to]);
-  // };
->>>>>>> origin/main
 
   return (
     <div
